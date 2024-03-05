@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(27, 63, 63);
+    color: #ffffff;
+}
+a{color: #ffffff;}
+
+.pfooter{
+    color: rgb(196, 196, 196);
+}
+.by{
+    color: dimgrey;
+}
+#topo{
+    width: 55px;
+}
