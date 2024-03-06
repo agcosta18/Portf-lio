@@ -1,15 +1,53 @@
 body{
-    background-color: rgb(27, 63, 63);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
-}
-a{color: #ffffff;}
-
-.pfooter{
-    color: rgb(196, 196, 196);
-}
-.by{
-    color: dimgrey;
 }
 #topo{
     width: 55px;
+}
+*{
+    font-family: 'poppins', sans-serif;
+ }
+
+a{color: #ffffff;}
+
+.pfooter{
+    color: #909090; font-size: 12.8px; 
+}
+ .title{
+    color: #eaeade; font-size: 28.8px; 
+ }
+
+ .box{
+    color: #909090; font-size: 12px;
+ }
+
+.b{
+    background-color: var(--dark-gray); color: var(--steel-gray);
+}
+
+.fim{
+
+    width: 512.8px;
+    height: 65px;
+}
+
+.icones{
+
+    
+    background-color: #ff0000;
+    margin-left: 3.2px;
+    margin-right: 3.2px;
+  
+}
+i{
+    font-size: 24px;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    padding-top: 24px;
 }
