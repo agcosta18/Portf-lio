@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(0, 0, 0);
     color: #ffffff;
 }
 #topo{
-    width: 55px;
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 30px;
 }
 *{
     font-family: 'poppins', sans-serif;
@@ -13,6 +19,7 @@ a{color: #ffffff;}
 
 .pfooter{
     color: #909090; font-size: 12.8px; 
+    
 }
  .title{
     color: #eaeade; font-size: 28.8px; 
@@ -20,10 +27,14 @@ a{color: #ffffff;}
 
  .box{
     color: #909090; font-size: 12px;
+    display: inline-block;
+    margin: 40px;   
  }
 
 .b{
     background-color: var(--dark-gray); color: var(--steel-gray);
+    width: 90%;
+    margin: 10px;
 }
 
 .fim{
@@ -36,10 +47,11 @@ a{color: #ffffff;}
 
     
     background-color: #ff0000;
-    margin-left: 3.2px;
-    margin-right: 3.2px;
+    margin-left: 5.2px;
+    margin-right: 5.2px;
   
 }
+
 i{
     font-size: 24px;
 }
@@ -50,4 +62,31 @@ li{
 
 ul{
     padding-top: 24px;
+}
+.lala {
+    
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+     
+}
+.lala > label{
+    display: block;
+}
+.lala > input{
+    display: block;
+}
+
+.haha{
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.haha > label{
+    display: block;
+
+}
+.haha > input{
+    display: block;
 }
