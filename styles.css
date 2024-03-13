@@ -15,12 +15,42 @@ body{
     font-family: 'poppins', sans-serif;
  }
 
-a{color: #ffffff;}
+ .up{
+    margin: 0px 0px 20px 40px;
+ }
+
+ .ai{
+    margin-top: 30px;
+    margin-left: 10px;
+ }
+
+.sem{
+    margin: 40px;
+    font-style: italic; 
+}
+
+i{
+    font-size: 24px;
+    margin: 0px 0px 10px 10px;  
+}
+
+a{
+    color: #ffffff;
+}
 
 .pfooter{
     color: #909090; font-size: 12.8px; 
-    
+    display: block;
+    margin-left: 10px;
+       
 }
+
+.end{
+    color: #909090; font-size: 12.8px; 
+    display: block;
+    margin-top: 20px;
+}
+
  .title{
     color: #eaeade; font-size: 28.8px; 
  }
@@ -28,65 +58,62 @@ a{color: #ffffff;}
  .box{
     color: #909090; font-size: 12px;
     display: inline-block;
-    margin: 40px;   
+    margin: 40px;
+    padding: 40px;
  }
 
 .b{
     background-color: var(--dark-gray); color: var(--steel-gray);
-    width: 90%;
+    width: 100%;
     margin: 10px;
 }
 
-.fim{
-
-    width: 512.8px;
-    height: 65px;
-}
-
 .icones{
-
-    
-    background-color: #ff0000;
     margin-left: 5.2px;
-    margin-right: 5.2px;
-  
-}
-
-i{
-    font-size: 24px;
+    margin-right: 5.2px;  
 }
 
 li{
-    display: inline;
+    display: inline-block;
 }
 
 ul{
     padding-top: 24px;
 }
-.lala {
-    
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
 
-     
+.lala {    
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;     
 }
+
 .lala > label{
     display: block;
 }
+
 .lala > input{
-    display: block;
+    display: block;   
+}
+
+#email{
+    width: 107%;
 }
 
 .haha{
-
-    margin-left: 10px;
+    margin-left: 5px;
     margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100%;    
 }
+
 .haha > label{
     display: block;
-
 }
+
 .haha > input{
     display: block;
+}
+.oi{
+  display: inline-block;
 }
